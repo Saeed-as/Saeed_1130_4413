@@ -1,0 +1,244 @@
+
+
+/* Start Top Nav CSS */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+.mainnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.mainnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.mainnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.mainnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* End Top Nav CSS */
+
+.container-full {
+
+    padding: .5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Start Table CSS */
+.table ,.table th , .table td {
+
+ 
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+table {
+
+  margin-top: 1rem;;
+
+}
+
+th , td {
+
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+}
+
+th {
+  
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+td {
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+
+.tdAction {
+
+   width:9rem;
+}
+
+.tblLeft *{
+  
+  text-align: left;
+}
+/* End Table CSS */
+
+.msgDanger {
+  color:red;
+}
+
+.viewCard *
+{
+    padding:.5rem;
+    margin:0;
+    text-align: center;
+    
+}
+.viewCard
+{
+    width: 18rem;
+    display: inline-block;
+    
+    background-color:#5dade2 ;
+}
+.tableCard {
+
+    border-color: white;
+    background-color:  #aed6f1 ;
+    width: 100%;
+    border-color: #d6eaf8;
+    
+}
+.tableCard  th ,  .tableCard td{
+
+
+    border-color: #d6eaf8;
+    
+}
+
+
+
+
+
+
+.servBar {
+
+    padding: 0;
+    margin: 0;
+}
+
+
+.btn {
+
+  border: none;
+    
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnHome {
+  
+  color: black;
+  background-color:skyblue;
+}
+
+.btnSubmit {
+
+  margin-top: .5rem;
+  color: black;
+  background-color:gray;
+}
+
+
+
+.btnNewRecord {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnView {
+    background-color: skyblue; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .9rem;
+}
+
+.btnUpdate {
+    background-color: darkgrey; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .9rem;
+}
+
+.btnDelete {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .9rem;
+}
+
+
+
+
+.msgAlert {
+  padding: 1rem;
+  background-color: #5DADE2;
+  color: #F7F9F9;
+  text-align: center;
+}
+
+.btnC {
+  margin-left: 1.5rem;
+  color: #154360;
+  font-weight: bold;
+  float: right;
+  font-size: 2rem;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
