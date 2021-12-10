@@ -11,6 +11,7 @@ body {
 .mainnav {
   overflow: hidden;
   background-color: #333;
+  
 }
 
 .mainnav a {
@@ -230,6 +231,7 @@ td {
   background-color: #5DADE2;
   color: #F7F9F9;
   text-align: center;
+  margin-top: 0.5rem;
 }
 
 .btnC {

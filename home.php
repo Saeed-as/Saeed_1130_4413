@@ -61,4 +61,4 @@ while ( $row_employees = $result_employees->fetch_assoc() ) {
     </div>
 </div>
 
-<?php include "footer.php"; ?>
+<?php include "footer.html"; ?>

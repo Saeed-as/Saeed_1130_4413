@@ -2,13 +2,13 @@
 
 function validateEmployeeForm() {
 
-    let employee_no = document.forms["employee_create_form"]["employee_no"].value;
-    let employee_name_en = document.forms["employee_create_form"]["employee_name_en"].value;
-    let employee_name_ar = document.forms["employee_create_form"]["employee_name_ar"].value;
-    let employee_id = document.forms["employee_create_form"]["employee_id"].value;
-    let birth_date = document.forms["employee_create_form"]["birth_date"].value;
-    let mobile_no = document.forms["employee_create_form"]["mobile_no"].value;
-    let frmVali = true;
+    var employee_no = document.forms["employee_create_form"]["employee_no"].value;
+    var employee_name_en = document.forms["employee_create_form"]["employee_name_en"].value;
+    var employee_name_ar = document.forms["employee_create_form"]["employee_name_ar"].value;
+    var employee_id = document.forms["employee_create_form"]["employee_id"].value;
+    var birth_date = document.forms["employee_create_form"]["birth_date"].value;
+    var mobile_no = document.forms["employee_create_form"]["mobile_no"].value;
+    var frmVali = true;
 
     if ( employee_no == ""  ) {
         document.getElementById('employee_no_msg').innerHTML = "This field is required.";
@@ -70,8 +70,8 @@ function validateEmployeeForm() {
 
 function validateEmployeeNationalityForm() {
 
-    let nationality = document.forms["employee_nationality_create_form"]["nationality"].value;
-    let frmVali = true;
+    var nationality = document.forms["employee_nationality_create_form"]["nationality"].value;
+    var frmVali = true;
 
     if (nationality == "") {
         document.getElementById('nationality_msg').innerHTML = "This field is required.";

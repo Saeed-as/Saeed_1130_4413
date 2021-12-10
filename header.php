@@ -10,12 +10,10 @@
     <title>Employee</title>
 </head>
 <body>
-    <ul class="mainnav">
-        <li><a href="home.php">Home</a></li>
-        <li><a href="employee.php">Employee</a></li>
-        <li><a href="employee_nationality.php">Employee Nationality</a></li>
-    </ul>
+    
     <div class="container-full">
+
+    <?php include "nav.html"; ?>
 
     <?php if( !empty($_GET['msg']) ): ?>
 

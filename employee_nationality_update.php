@@ -80,4 +80,4 @@ if( $_GET['id'] > 0 &&  is_numeric($_GET['id']) ) {
 ?>
 
 
-<?php include "footer.php"; ?>
+<?php include "footer.html"; ?>

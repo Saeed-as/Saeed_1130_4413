@@ -113,4 +113,4 @@ while ( $row_nationalities = $result_nationalities->fetch_assoc() ) {
 </form>
 
 
-<?php include "footer.php"; ?>
+<?php include "footer.html"; ?>
