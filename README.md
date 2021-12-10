@@ -16,3 +16,4 @@ It is an employee information management program that includes another table rel
 3. A javascript file to verify the form entries, for example, that the field is not empty, as well as making sure that the entries are numbers for the entered ID number
 4. A css file to add aesthetics to the page and to be more organized and display a message at the top of the page in the event of adding new employee data, modification or deletion, as well as adding distinctive colors to the display, addition, modification and deletion buttons. 
 5. We also used for PHP GET , POST and header to move to other pages, as well as some tools were used to ensure that id sent via the header is correct and does not contain letters and must be numbers.
+6. We use XAMPP v3.3.0
